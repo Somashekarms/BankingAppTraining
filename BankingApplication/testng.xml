@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suitename" parallel="tests">
+  <parameter name="url" value=""></parameter>
+  
+  <test thread-count="5" name="sanity1">
+   <parameter name="browser" value="firefox"></parameter>
+   
+    <classes>
+      <class name="Repository.Test_Execution">
+      <methods>
+         <include name="verify_login()"></include>
+        
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- sanity -->
+  
+  
+  
+  
+  <test thread-count="5" name="sanity2">
+  
+    <parameter name="browser" value="chrome"></parameter>
+  
+    <classes>
+      <class name="Repository.Test_Execution">
+       <methods>
+         <include name="verify_login()"></include>
+        
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- sanity -->
+</suite> <!-- Suitename -->
