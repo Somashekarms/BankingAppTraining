@@ -127,6 +127,7 @@ public class Repository extends Base {
 	public void table()
 	{
 		Admin_Master.Branches_Btn(driver).click();
+		System.out.println("changing new lines");
 		WebTable.webtable(driver, By.id("DG_bankdetails"), "edit", "188");
 	}
 
