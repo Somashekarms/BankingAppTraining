@@ -1,0 +1,16 @@
+1. Give me the architecture diagram of config manager
+	    ConfigServer
+		|
+LCA(Server & Applications) ->  SCS -> SCI
+      MessageServer->DBServer->Log DB
+
+2. Whar is media layer and its functionality and its architecture
+   Media Layer serves as the center of any Genesys system, receiving and distributing messages
+   as directed by the other components
+   It also provides attached data betwneen the components
+3. What is management layer and its architecture
+   This is to view all the components and also it possible to perform stop/start and switch the compoents from primary to back and vice-versa.
+4. What is Framework and its benifits
+
+5. What is LCA and what is its advantake?
+   LCA is Local Control Agent which helps in monitoring the servers using SCI. SCI is a tool to monitor all the components and if LCA is running, it determines in two colors, gray is nothing but the server is down and green represents, server is up and running.
