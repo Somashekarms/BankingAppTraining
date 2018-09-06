@@ -1,0 +1,28 @@
+1. How to create an Agent?
+   Follow the doc which is saved here
+2. How to assign a privilleages to the user?
+   Go to Userr account and give access in rule tab.
+3. What are the steps required to install CME?
+   Make sure server is ready with database client running
+   Download the software from Genesys and extract to some temp directory
+   Copy the templete to CME in case of upgrade
+   Go to installation directory and issue a command ./install
+   Follow the steps and go ahead with installation.
+   Make sure DB server is running
+   Also make sure these details are stored in the config file
+   Once installation is done, make sure run.sh is proper and set to run 
+   Login with CME with default application name and port that you have provided
+   
+   
+4. Architecture of config server
+   Config DB-> Config DB Server->Config Server->CME
+
+5. How to create an application once installed?
+   Right click and click on new (it can be T-server, DAP, Database etc)
+6. How to create VDN, CDN, IVR ports etc?
+   This should be done under switches
+7. What is difference between persons and places?
+   Person is a physical Agent extension and Places is nothing but Agent ID.
+8. How to create Agent group, persons and places?
+9. What is the tool used to upgrade the CME? (ans: CCW-Configuration Conversion Wizard)?
+10. What is agent login means to you?

@@ -1,0 +1,11 @@
+1. What is the use of SCI and what we can do with it?
+   SCI is a tool for monitoring, stoping, starting and switching the Genesys applications
+2. What are ralated components to connect to SCI?
+   Config server->SCS->SCI
+3. How to stop and start the components?
+   Right Click on the server and perform the operations
+4. What alarms we can see in SCI?
+   We can set up all the alarms to receive email when its down like for example Licenses are out
+5. Is there a possibility to start the server without SCI?
+   We can use scripts to stop and start 
+6. What is the use of LCA?

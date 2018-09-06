@@ -1,0 +1,21 @@
+1. What is T-server?
+2. What is the protocol is used to connect to PABX? (ans: DLG -Definity Lan Gateway)
+3. What kind of events you can expect? (EvenRouteRequest, EvenRouteAnswer etc)
+4. Any idea about options given in CME?
+5. How install T-server?
+6. How the license works for T-server?
+7. What are the related components to T-server?
+8. How to upload the license?
+9. What is callID and ConnectionID?
+10. Give me real scenario of any issue?
+
+
+T-Library Events
+EventRouteRequest
+EventRinging
+EventEstablished
+EvenTreatmentRequired
+
+
+1800 558 5700 Ink
+855 831 5547 - Online order

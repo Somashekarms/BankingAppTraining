@@ -1,0 +1,41 @@
+1. What is IRD?
+   IRD is a Interaction Routing Designer for building the strategies.
+2. How it is connected to each components (Architecture)?
+   
+3. How to create a routing strategy?
+4. How to assign routing strategy to route points?
+5. How to export strategy to production servers?
+6. Give an example of sample strategy and expain each object?
+7. What are lists?
+   List Objects are like an Array. For example, we can keep the 800 numbers used in strategy and when new item is added, just add it in lists, no need to edit the strategy.
+
+The Transactions folder is located under the Tenant folder. It can contain one or more of the
+following items that have been configured in IRD: routing rules, business
+rules, interaction data, attributes, list objects, macros and statistics.
+
+8. Where can we use business rules?
+   Business rules are created from Attributes, It will allow to reuse the same business decision miltiple times. 
+9. How and where to use Interaction data?
+   These are attached data keys used in strategy, used to send attached data for screen pop-up.
+10. What are reusable objects?
+   Business rules and attributs are reuseable objects
+11. Explain different types of object categories?
+12. What are Virtual queues?
+    A Virtual queue is not a physical queue like an ACD in pbx. A virtual is a logicl queue where an interaction is queued when the required targets are not available. These are used for reporting purpose and also statistic collection for URS. 
+
+13. What is RAN and how to assign to queue?
+Play Recorded Announcement. Under voice treatment block, click on music button and drag to the low and assign the RAN VDN to it.
+14. How to give an option for VH option?
+15. How to give priority to a caller? (it cab be possible only if we have virtual queues?
+16. What is a strategy?
+    A strategy is a set of decisions and instructions that tell Universal Routing
+Server (URS) how to handle and where to direct interactions under different
+circumstances (see Figure 3 on page 29). Within a strategy, you may use
+subroutines, routing rules, business rules, attributes, interaction data, statistics,
+lists, and macros
+
+URS controls all DN's of the followin types
+Routing point
+Virtul Routing Point
+Service Point
+Voice treatment port (RAN)
